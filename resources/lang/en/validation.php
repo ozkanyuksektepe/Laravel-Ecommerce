@@ -87,7 +87,7 @@ return [
     'min' => [
         'numeric' => 'The :attribute must be at least :min.',
         'file' => 'The :attribute must be at least :min kilobytes.',
-        'string' => 'The :attribute must be at least :min characters.',
+        'string' => ':attribute alanı en az :min karakter olmalıdır.',
         'array' => 'The :attribute must have at least :min items.',
     ],
     'multiple_of' => 'The :attribute must be a multiple of :value.',
@@ -150,6 +150,11 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'adsoyad' => 'Ad Soyad',
+        'email' => 'Email',
+        'sifre' => 'Sifre',
+        'slug' => 'Slug'
+    ],
 
 ];

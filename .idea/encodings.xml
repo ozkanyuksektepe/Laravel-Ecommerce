@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/.env" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/resources/lang/tr" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/resources/lang/tr.json" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/resources/sass/commerce.scss" charset="windows-1254" />
     <file url="PROJECT" charset="windows-1254" />
   </component>
 </project>
